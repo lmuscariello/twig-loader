@@ -69,6 +69,9 @@ module.exports = {
 - `twigOptions`: optional; a map of options to be passed through to Twig.
   Example: `{autoescape: true}`
 
+- `namespaces`: optional, a map of namespaces 
+  Example: `{namespaces: { components: "/path/to/component/folder" } }`
+
 ## Loading templates
 
 ```twig
